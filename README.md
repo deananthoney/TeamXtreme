@@ -2,5 +2,5 @@
 
 /****Front End Project****/ 
 /****I Build various including in HTML5,CSS3,Javascript,JQuery,RWD,etc****/
-Website: www.deanthedesigner.com
+Email: dean@deanthedesigner.com Website: www.deanthedesigner.com
 /****Developed By Dean ************/

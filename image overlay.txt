@@ -1,0 +1,151 @@
+image overlay 
+
+http://mikeheavers.com/stage/full_screen_map/
+
+I have a page whose background image scales as the browser resizes. What I'm trying to figure out is how to make the blue marker image scale and maintain position in proportion to the background. For example, if the blue marker were on the tip of the harbor, as I scaled the browser down, I'd want that marker to stay on the tip of the harbor and shrink in size proportionally with the browser's new dimensions.
+
+Anyone have any ideas that will point me in the right direction?
+
+Update -
+I used the belwo method to find the browser size, but I think my math's a little off. You can view the live example here:
+
+http://mikeheavers.com/stage/full_screen_map/
+
+The marker gets really off if you scale it in one direction more than the other.
+
+<style type="text/css">
+        html {
+
+                background: url(images/antigua.jpeg) no-repeat center center fixed;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+        }
+
+        #infoDiv {
+            background: white;
+            padding: 20px;
+            width: 200px;
+            position:absolute;
+        }
+
+        #map_canvas {
+            position:absolute   ;
+        }
+
+        .marker {
+            position:absolute;
+            left: 800px;
+            top: 400px;
+            height: 20px;
+            width: 20px;
+            background: #ff0000;
+        }
+
+    </style>
+    <script type="text/javascript" charset="utf-8" src="js/jquery-1.4.4.min.js"></script>
+
+
+
+        <div id="infoDiv">
+
+        </div>
+
+        <div id="markers">
+            <div class="marker">
+            </div>
+        </div>
+
+        <script type="text/javascript">
+
+
+            $(document).ready(function() 
+            {   
+
+                var myWidth = window.innerWidth;
+                var leftVal = $("#markers").children().css('left');
+                var leftValNumber = parseFloat(leftVal);
+                var leftRatio = leftValNumber / myWidth;
+                var leftValPos;
+
+                var myHeight = window.innerHeight;
+                var topVal = $("#markers").children().css('top');
+                var topValNumber = parseFloat(topVal);
+                var topRatio = topValNumber / myHeight;
+                var topValPos;
+
+                var scaleRatio;
+
+                if (myWidth > myHeight){
+                    scaleRatio = 20/myWidth;
+                } else {
+                    scaleRatio = 20/myHeight;
+                }
+
+
+                window.onresize = function() {
+
+                    sizeMarkers();
+
+                }
+
+                function init()
+                {
+
+
+
+                    sizeMarkers();
+
+                }
+
+                function sizeMarkers()
+                {
+
+
+                      if( typeof( window.innerWidth ) == 'number' ) {
+                        //Non-IE
+
+                        myWidth = window.innerWidth;
+                        myHeight = window.innerHeight;
+                      } else if( document.documentElement && ( document.documentElement.clientWidth || document.documentElement.clientHeight ) ) {
+                        //IE 6+ in 'standards compliant mode'
+                        myWidth = document.documentElement.clientWidth;
+                        myHeight = document.documentElement.clientHeight;
+                      } else if( document.body && ( document.body.clientWidth || document.body.clientHeight ) ) {
+                        //IE 4 compatible
+                        myWidth = document.body.clientWidth;
+                        myHeight = document.body.clientHeight;
+                      }
+                        topVal = $("#markers").children().css('top');
+                        topValNumber = parseFloat(topVal);
+                        topValPos = topRatio * myHeight;
+
+                        leftVal = $("#markers").children().css('top');
+                        leftValNumber = parseFloat(leftVal);
+                        leftValPos = leftRatio * myWidth;
+
+                        if (myWidth < myHeight){
+                            $("#markers").children().width(myWidth*scaleRatio);
+                            $("#markers").children().height(myWidth*scaleRatio);
+                        } else {
+                            $("#markers").children().width(myHeight*scaleRatio);
+                            $("#markers").children().height(myHeight*scaleRatio);
+                        }
+
+
+                        $("#markers").children().css('top',topValPos);
+                        $("#markers").children().css('left',leftValPos);
+
+                        $("#infoDiv").html( 'Width = ' + myWidth + ' | Height = ' + myHeight + ' | Top Value: ' + topValPos + ' | Left Value: ' + leftValPos);
+
+
+                }
+
+                init();
+
+             });
+
+
+
+        </script>

@@ -1,0 +1,217 @@
+/*** Developed By Dean***/
+
+
+.selectBox-dropdown {
+    background-attachment:initial;
+    background-clip:initial;
+    background-color:initial;
+    background-image:url(http://goldfishfun.com/images/background/inputBg.gif);
+    background-origin:initial;
+    background-position:0 0;
+    background-repeat:no-repeat no-repeat;
+    border-bottom-style:none;
+    border-bottom-width:0;
+    border-color:initial;
+    border-left-style:none;
+    border-left-width:0;
+    border-right-style:none;
+    border-right-width:0;
+    border-top-style:none;
+    border-top-width:0;
+    color:#000000;
+    cursor:default;
+    display:inline-block;
+    height:27px;
+    outline-color:initial;
+    outline-style:none;
+    outline-width:initial;
+    padding-bottom:0;
+    padding-left:5px;
+    padding-right:5px;
+    padding-top:10px;
+    position:relative;
+    text-decoration:none;
+    vertical-align:middle;
+    width:238px;
+}
+.selectBox-dropdown:focus, .selectBox-dropdown:focus .selectBox-arrow {
+    border-bottom-color:#666666;
+    border-left-color:#666666;
+    border-right-color:#666666;
+    border-top-color:#666666;
+}
+.selectBox-dropdown.selectBox-menuShowing {
+    border-bottom-left-radius:0;
+    border-bottom-right-radius:0;
+}
+.selectBox-dropdown .selectBox-label {
+    color:#B9B1B1;
+    display:inline-block;
+    overflow-x:hidden;
+    overflow-y:hidden;
+    padding-bottom:0.2em;
+    padding-left:0.3em;
+    padding-right:0.3em;
+    padding-top:0.2em;
+    white-space:nowrap;
+    width:100%;
+}
+.selectBox-dropdown .selectBox-arrow {
+    background-attachment:initial;
+    background-clip:initial;
+    background-color:initial;
+    background-image:url(http://goldfishfun.com/images/background/selectArrow.gif);
+    background-origin:initial;
+    background-position:50% 5px;
+    background-repeat:no-repeat no-repeat;
+    height:100%;
+    position:absolute;
+    right:0;
+    top:0;
+    width:40px;
+}
+a.selectBox-dropdown:hover, ul.selectBox-options a:hover {
+    cursor:pointer;
+    text-decoration:none;
+}
+.selectBox-dropdown-menu {
+    -webkit-box-shadow:rgba(0, 0, 0, 0.199219) 0 2px 6px;
+    background-attachment:initial;
+    background-clip:initial;
+    background-color:#FFFFFF;
+    background-image:initial;
+    background-origin:initial;
+    background-position:initial initial;
+    background-repeat:initial initial;
+    border-bottom-color:#BBBBBB;
+    border-bottom-style:solid;
+    border-bottom-width:1px;
+    border-left-color:#BBBBBB;
+    border-left-style:solid;
+    border-left-width:1px;
+    border-right-color:#BBBBBB;
+    border-right-style:solid;
+    border-right-width:1px;
+    border-top-color:#BBBBBB;
+    border-top-style:solid;
+    border-top-width:1px;
+    box-shadow:rgba(0, 0, 0, 0.199219) 0 2px 6px;
+    max-height:200px;
+    overflow-x:auto;
+    overflow-y:auto;
+    position:absolute;
+    z-index:99999;
+}
+.selectBox-inline {
+    background-attachment:initial;
+    background-clip:initial;
+    background-color:#FFFFFF;
+    background-image:initial;
+    background-origin:initial;
+    background-position:initial initial;
+    background-repeat:initial initial;
+    border-bottom-color:#BBBBBB;
+    border-bottom-left-radius:4px;
+    border-bottom-right-radius:4px;
+    border-bottom-style:solid;
+    border-bottom-width:1px;
+    border-left-color:#BBBBBB;
+    border-left-style:solid;
+    border-left-width:1px;
+    border-right-color:#BBBBBB;
+    border-right-style:solid;
+    border-right-width:1px;
+    border-top-color:#BBBBBB;
+    border-top-left-radius:4px;
+    border-top-right-radius:4px;
+    border-top-style:solid;
+    border-top-width:1px;
+    display:inline-block;
+    outline-color:initial;
+    outline-style:none;
+    outline-width:initial;
+    overflow-x:auto;
+    overflow-y:auto;
+    width:250px;
+}
+.selectBox-inline:focus {
+    border-bottom-color:#666666;
+    border-left-color:#666666;
+    border-right-color:#666666;
+    border-top-color:#666666;
+}
+.selectBox-options, .selectBox-options li, .selectBox-options li a {
+    cursor:default;
+    display:block;
+    list-style-image:initial;
+    list-style-position:initial;
+    list-style-type:none;
+    margin-bottom:0;
+    margin-left:0;
+    margin-right:0;
+    margin-top:0;
+    padding-bottom:0;
+    padding-left:0;
+    padding-right:0;
+    padding-top:0;
+}
+.selectBox-options li a {
+    background-attachment:initial;
+    background-clip:initial;
+    background-color:initial;
+    background-image:initial;
+    background-origin:initial;
+    background-position:6px 50%;
+    background-repeat:no-repeat no-repeat;
+    line-height:1.5;
+    overflow-x:hidden;
+    overflow-y:hidden;
+    padding-bottom:0;
+    padding-left:0.5em;
+    padding-right:0.5em;
+    padding-top:0;
+    white-space:nowrap;
+}
+.selectBox-options li.selectBox-hover a {
+    background-color:#EEEEEE;
+}
+.selectBox-options li.selectBox-disabled a {
+    background-color:transparent;
+    color:#888888;
+}
+.selectBox-options li.selectBox-selected a {
+    background-color:#C8DEF4;
+}
+.selectBox-options .selectBox-optgroup {
+    background-attachment:initial;
+    background-clip:initial;
+    background-color:#EEEEEE;
+    background-image:initial;
+    background-origin:initial;
+    background-position:initial initial;
+    background-repeat:initial initial;
+    color:#666666;
+    font-weight:bold;
+    line-height:1.5;
+    padding-bottom:0;
+    padding-left:0.3em;
+    padding-right:0.3em;
+    padding-top:0;
+    white-space:nowrap;
+}
+.selectBox.selectBox-disabled {
+    color:#888888 !important;
+}
+.selectBox-dropdown.selectBox-disabled .selectBox-arrow {
+    border-bottom-color:#666666;
+    border-left-color:#666666;
+    border-right-color:#666666;
+    border-top-color:#666666;
+    opacity:0.5;
+}
+.selectBox-inline.selectBox-disabled {
+    color:#888888 !important;
+}
+.selectBox-inline.selectBox-disabled .selectBox-options a {
+    background-color:transparent !important;
+}

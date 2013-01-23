@@ -1,0 +1,1095 @@
+/************TEAM EXTREME Landing Page************/
+
+*{
+margin:0;
+padding:0;
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+border-bottom-width:0;
+border-color:initial;
+border-left-width:0;
+border-right-width:0;
+border-style:initial;
+border-top-width:0;
+font:inherit;
+font-size:100%;
+margin-bottom:0;
+margin-left:0;
+margin-right:0;
+margin-top:0;
+padding-bottom:0;
+padding-left:0;
+padding-right:0;
+padding-top:0;
+vertical-align:baseline;
+}
+
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display:block;
+}
+
+/***1251px***/
+body{
+background:url ('./images/imagebackground.jpg')no-repeat center;
+font-family: arial,sans-serif;
+font-size: 10px;
+color:#484241;	
+width: 100%;
+z-index:-2000;
+}
+
+ol, ul {
+  list-style-image:initial;
+  list-style-position:initial;
+  list-style-type:none;
+}
+blockquote, q {
+  quotes:none;
+}
+blockquote::before, blockquote::after, q::before, q::after {
+  content:none;
+}
+table {
+  -webkit-border-horizontal-spacing:0;
+  -webkit-border-vertical-spacing:0;
+  border-collapse:collapse;
+}
+a {
+  outline-color:initial;
+  outline-style:initial;
+  outline-width:0;
+  text-decoration:none;
+}
+a:hover {
+  text-decoration:underline;
+}
+strong {
+  font-weight:bold;
+}
+.clear {
+  clear:both;
+}
+.dspNone {
+  display:none;
+}
+.error {
+  color:#DD4733 !important;
+}
+em, i {
+  font-style:italic;
+}
+/***characters ***/
+
+.buttons{
+position:relative;
+display:inline;
+margin-top:100px;
+background-position:right bottom;
+vertical-align: middle;
+}
+
+
+/***Fishbox Images****/
+
+#textbox{
+position:relative;
+list-style-type:none;
+display:inline;
+float:left;
+}
+#textbox li{
+position:relative;
+z-index:400;
+text-decoration:none;
+list-style-type:none;
+float:left;
+top: -955px;
+margin-left:602px;
+}
+
+
+#textbox, ul li ul li  {
+position: relative;
+list-style-type:none;
+
+z-index:400;
+}
+
+#textbox, ul li ul li.buttons {
+position: relative;
+list-style-type:none;
+display:block;
+z-index:400;
+}
+
+#textbox,ul#buttons,ul.buttons li {
+position: relative;
+list-style-type:none;
+display:block;
+z-index:400;
+
+}
+
+.lefttextbox li{
+position:relative;
+z-index:400;
+text-decoration:none;
+list-style-type:none;
+top:-548px;
+margin-left:20px;
+}
+/******/
+
+/***Fishbox****/
+#main{
+top:142px;
+left:10px;
+position:relative;
+color: #FFF;
+margin:auto;
+z-index: 200;
+}
+
+/****ads***/
+.ad{
+position:relative;
+display:inline;	
+}
+
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+a {
+    outline: 0 none;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+
+ol, ul {
+    list-style: none outside none;
+}
+
+#WrapTop {
+height: auto !important;
+margin: 0 auto;
+min-height: 100%;
+position: relative;
+
+}
+
+/*******
+imagebackground
+width:2184px;
+height:1131px;
+/****/
+
+#ie7 #WrapTop {
+}
+
+#WrapBottom {
+    background-position: center top;
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+}
+#ie7 #WrapBottom {
+}
+#ContentContainer {
+    margin: 0 auto;
+    padding: 0 0 350px;
+    position: relative;
+    width: 960px;
+    z-index: 10;
+}
+.main {
+    position: relative;
+}
+.main-content {
+    position: relative;
+}
+
+
+
+#article, #aside, #details, #figcaption, #figure, #footer, #header, #hgroup, #menu, #nav, #section {
+display: block;
+}
+
+h1{
+font-size: 12px;	
+	
+}
+
+em,i{
+font-style: italic;
+}
+
+strong{
+font-weight:bold;
+}
+
+
+/***Fishbox****/
+#wrapper1{
+background-image: url('../images/fishboxmiddle.png') no-repeat center center fixed;
+position:absolute;
+left: 800px;
+top: 400px;
+height: 959px;
+width: 711px;
+background: #ff0000;
+z-index:200;
+}
+
+.marker {
+position:absolute;
+left: 800px;
+top: 400px;
+height: 959px;
+width: 711px;
+background: #ff0000;
+}
+
+
+
+
+
+
+/*****Footer**********/
+
+#Footer {
+  background-attachment:initial;
+  background-clip:initial;
+  background-color:#F9F0BA;
+  background-image:url(http://goldfishfun.com/images/background/footer-bg.gif);
+  background-origin:initial;
+  background-position:0 0;
+  background-repeat:repeat no-repeat;
+  bottom:0;
+  clear:both;
+  color:#905938;
+  min-height:195px;
+  padding-bottom:10px;
+  padding-left:0;
+  padding-right:0;
+  padding-top:20px;
+  position:absolute;
+  width:100%;
+  z-index:11;
+}
+#Footer .inner {
+  margin-bottom:0;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:0;
+  width:960px;
+}
+#Footer .copy-right a {
+  color:#905938;
+}
+#Footer .links a, #Footer .links a:visited, #Footer span {
+  color:#000000;
+}
+#Footer .links a:hover, #Footer a:hover {
+  color:#DF7406;
+}
+#Footer p {
+  line-height:16px;
+}
+#Footer .disclaimer, #Footer .footer-links, #Footer .ad-nooze, #Footer .divider {
+  float:left;
+}
+#Footer .footer-links, #Footer .ad-nooze, #Footer .divider {
+  width:48%;
+}
+#Footer .ad-nooze span {
+  font-weight:bold;
+}
+#Footer .footer-links .pf-logo {
+  margin-bottom:5px;
+  margin-left:80px;
+  margin-right:0;
+  margin-top:0;
+}
+#Footer .ad-nooze .ad-nooze-logo {
+  margin-bottom:5px;
+  margin-left:90px;
+  margin-right:0;
+  margin-top:0;
+}
+#Footer .ad-nooze p {
+  margin-left:100px;
+}
+#Footer.legal .footer-links {
+  width:333px;
+}
+#Footer.legal .disclaimer a, #Footer.legal .disclaimer a:visited {
+  color:#000000;
+}
+#Footer.legal .disclaimer a:hover {
+  color:#DF7406;
+}
+#Footer.legal .disclaimer {
+  width:345px;
+}
+#Footer.legal .disclaimer {
+  padding-bottom:0;
+  padding-left:10px;
+  padding-right:0;
+  padding-top:25px;
+}
+#Footer.legal .disclaimer .headline {
+  font-size:10px;
+  font-weight:bold;
+}
+#Footer.legal .disclaimer .copy {
+  font-size:10px;
+  line-height:13px;
+}
+#Footer.legal .disclaimer .official-rules {
+  font-size:12px;
+}
+#Footer.legal .footer-links .pf-logo {
+  margin-bottom:5px;
+  margin-left:80px;
+  margin-right:0;
+  margin-top:0;
+}
+#Footer.legal .ad-nooze {
+  width:250px;
+}
+#Footer.legal .ad-nooze .ad-nooze-logo {
+  margin-bottom:5px;
+  margin-left:0;
+  margin-right:0;
+  margin-top:0;
+  text-align:center;
+
+}
+#Footer.legal .ad-nooze p {
+  margin-left:10px;
+}
+#Footer .divider {
+  background-attachment:initial;
+  background-clip:initial;
+  background-color:initial;
+  background-image:url(./images/footer/divider.png);
+  background-origin:initial;
+  background-position:0 0;
+  background-repeat:no-repeat no-repeat;
+  display:block;
+  height:92px;
+  margin-bottom:0;
+  margin-left:0;
+  margin-right:0;
+  margin-top:20px;
+  width:8px;
+}
+
+/***End of the Footer **/
+
+
+.image-link {
+  background-position:0 0;
+  background-repeat:no-repeat no-repeat;
+  display:block;
+  height:47px;
+  text-indent:-9999px;
+}
+.image-button {
+  background-position:0 0;
+  background-repeat:no-repeat no-repeat;
+  border-bottom-width:0;
+  border-color:initial;
+  border-left-width:0;
+  border-right-width:0;
+  border-style:initial;
+  border-top-width:0;
+  cursor:pointer;
+  height:47px;
+}
+.image-link:hover, .image-button.hover {
+  background-position:0 -47px;
+}
+.btn-play-now, .btn-play-now:hover {
+  background-image:url(http://goldfishfun.com/images/buttons/btn-play-now.png);
+  width:136px;
+}
+.btn-submit, .btn-submit:hover {
+  background-image:url(http://goldfishfun.com/images/buttons/submitBtn.png);
+  width:98px;
+}
+.btn-signin, .btn-signin:hover {
+  background-image:url(http://goldfishfun.com/images/buttons/signInBtn.png);
+  width:98px;
+}
+.btn-go, .btn-go:hover {
+  background-image:url(http://goldfishfun.com/images/buttons/btn-go.png);
+  width:102px;
+}
+.btn-ok, .btn-ok:hover {
+  background-image:url(http://goldfishfun.com/images/buttons/btn-ok.png);
+  width:103px;
+}
+.btn-save-changes, .btn-save-changes:hover {
+  background-image:url(http://goldfishfun.com/images/buttons/btn-save-changes.png);
+  width:176px;
+}
+.btn-sign-in-now, .btn-sign-in-now:hover {
+  background-image:url(http://goldfishfun.com/images/buttons/btn-sign-in-now.png);
+  width:156px;
+}
+.btn-signin-small {
+  background-image:url(http://goldfishfun.com/images/buttons/btn-signin-small.gif);
+  height:27px;
+  width:67px;
+}
+.btn-signin-small:hover {
+  background-position:0 -29px;
+}
+.btn-close-small, .btn-close-small:hover {
+  background-image:url(http://goldfishfun.com/images/buttons/btn-close-small.png);
+  height:24px;
+  width:58px;
+}
+.btn-close-small:hover {
+  background-position:0 -24px;
+}
+.btn-x-close-small, .btn-x-close-small:hover {
+  background-image:url(http://goldfishfun.com/images/buttons/btn-x-close-small.png);
+  height:11px;
+  width:56px;
+}
+.btn-x-close-small:hover {
+  background-position:0 -11px;
+}
+.btn-play-now-small, .btn-play-now-small:hover {
+  background-image:url(http://goldfishfun.com/images/buttons/btn-play-now-small.png);
+  height:35px;
+  width:97px;
+}
+.btn-play-now-small:hover {
+  background-position:0 -35px;
+}
+.btn-learn-more-small, .btn-learn-more-small:hover {
+  background-image:url(http://goldfishfun.com/images/buttons/btn-learn-more-small.png);
+  height:35px;
+  width:116px;
+}
+.btn-learn-more-small:hover {
+  background-position:0 -35px;
+}
+.btn-click-to-enter, .btn-click-to-enter:hover {
+  background-image:url(http://goldfishfun.com/images/buttons/btn-click-to-enter.png);
+  height:39px;
+  width:155px;
+}
+.btn-click-to-enter:hover {
+  background-position:0 -41px;
+}
+.btn-expand, .btn-expand:hover {
+  background-image:url(http://goldfishfun.com/images/buttons/btn-expand.png);
+  height:26px;
+  width:81px;
+}
+.btn-expand:hover {
+  background-position:0 -26px;
+}
+.view-more, .view-more:hover {
+  background-image:url(http://goldfishfun.com/images/icons/icon-view-more.png) !important;
+  background-repeat:no-repeat no-repeat;
+  cursor:pointer !important;
+  height:19px !important;
+  padding-bottom:0 !important;
+  padding-left:0 !important;
+  padding-right:30px !important;
+  padding-top:5px !important;
+  width:auto !important;
+}
+.view-more {
+  background-position:100% 0 !important;
+  color:#484241 !important;
+}
+.view-more:hover {
+  background-position:100% -24px !important;
+  color:#FF8038 !important;
+  text-decoration:underline;
+}
+form input {
+  color:#000000;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:14px;
+  line-height:1em;
+}
+.input-small {
+  background-attachment:scroll;
+  background-clip:initial;
+  background-color:transparent;
+  background-image:url(http://goldfishfun.com/images/background/inputBgSmall.gif);
+  background-origin:initial;
+  background-position:0 0;
+  background-repeat:no-repeat no-repeat;
+  border-bottom-style:none;
+  border-bottom-width:0;
+  border-color:initial;
+  border-left-style:none;
+  border-left-width:0;
+  border-right-style:none;
+  border-right-width:0;
+  border-top-style:none;
+  border-top-width:0;
+  height:37px;
+  padding-bottom:0;
+  padding-left:5px;
+  padding-right:5px;
+  padding-top:0;
+  width:204px;
+}
+#ie7 .input-small, #ie8 .input-small {
+  line-height:2.1em;
+}
+.input-medium {
+  background-attachment:scroll;
+  background-clip:initial;
+  background-color:transparent;
+  background-image:url(http://goldfishfun.com/images/background/inputBg.gif);
+  background-origin:initial;
+  background-position:0 0;
+  background-repeat:no-repeat no-repeat;
+  border-bottom-style:none;
+  border-bottom-width:0;
+  border-color:initial;
+  border-left-style:none;
+  border-left-width:0;
+  border-right-style:none;
+  border-right-width:0;
+  border-top-style:none;
+  border-top-width:0;
+  height:37px;
+  padding-bottom:0;
+  padding-left:5px;
+  padding-right:5px;
+  padding-top:0;
+  width:238px;
+}
+#ie7 .input-medium, #ie8 .input-medium {
+  line-height:2.1em;
+}
+.input-large {
+  background-attachment:scroll;
+  background-clip:initial;
+  background-color:transparent;
+  background-image:url(http://goldfishfun.com/images/background/inputBgLarge.gif);
+  background-origin:initial;
+  background-position:0 0;
+  background-repeat:no-repeat no-repeat;
+  border-bottom-style:none;
+  border-bottom-width:0;
+  border-color:initial;
+  border-left-style:none;
+  border-left-width:0;
+  border-right-style:none;
+  border-right-width:0;
+  border-top-style:none;
+  border-top-width:0;
+  height:53px;
+  line-height:2.1em;
+  padding-bottom:0;
+  padding-left:5px;
+  padding-right:5px;
+  padding-top:0;
+  width:264px;
+}
+#ie7 .input-large, #ie8 .input-large {
+  line-height:3.2em;
+}
+#share {
+  color:#FFFFFF;
+  cursor:pointer;
+  display:inline-block;
+  height:26px;
+  margin-bottom:0;
+  margin-left:0;
+  margin-right:0;
+  margin-top:0;
+  padding-bottom:0;
+  padding-left:0;
+  padding-right:0;
+  padding-top:0;
+  position:relative;
+  width:auto;
+}
+#share span.edge {
+  background-attachment:initial;
+  background-clip:initial;
+  background-color:initial;
+  background-image:url(http://goldfishfun.com/images/buttons/shareLikeBg.png);
+  background-origin:initial;
+  background-position:initial initial;
+  background-repeat:no-repeat no-repeat;
+  display:block;
+  float:left;
+  height:26px;
+  top:0;
+  width:4px;
+}
+#share span.edge.likeLt {
+  background-position:0 50%;
+}
+#share span.edge.likeRt {
+  background-position:100% 50%;
+}
+#share #shareContent {
+  background-attachment:initial;
+  background-clip:initial;
+  background-color:initial;
+  background-image:url(http://goldfishfun.com/images/buttons/shareLikeBg2.png);
+  background-origin:initial;
+  background-position:0 0;
+  background-repeat:repeat no-repeat;
+  display:block;
+  float:left;
+  height:20px;
+  overflow-x:hidden;
+  overflow-y:hidden;
+  padding-bottom:6px;
+  padding-left:0;
+  padding-right:0;
+  padding-top:0;
+  position:relative;
+  width:auto;
+}
+#share #shareContent span {
+  color:#FFFFFF;
+  display:inline-block;
+  font-weight:bold;
+  height:20px;
+  left:35px;
+  padding-bottom:0;
+  padding-left:0;
+  padding-right:0;
+  padding-top:0;
+  position:absolute;
+  top:6px;
+  width:auto;
+  z-index:1;
+}
+#share #shareContent .shareImg {
+  background-attachment:initial;
+  background-clip:initial;
+  background-color:initial;
+  background-image:url(http://goldfishfun.com/images/buttons/shareBtn-dead.png);
+  background-origin:initial;
+  background-position:initial initial;
+  background-repeat:no-repeat no-repeat;
+  display:block;
+  height:22px;
+  margin-bottom:0;
+  margin-left:0;
+  margin-right:0;
+  margin-top:0;
+  text-indent:-9999px;
+  width:76px;
+}
+#share #shareContent #shareCopyLnk {
+  cursor:auto;
+}
+body.flash-detail #share #shareContent span {
+  color:#FFFFFF;
+}
+#share #shareContent a {
+  color:#FFFFFF;
+}
+#share #shareContent input {
+  display:inline;
+  font-size:0.9em;
+  height:10px;
+  margin-bottom:0;
+  margin-left:115px;
+  margin-right:0;
+  margin-top:5px;
+  width:140px;
+}
+#share #shareContent .shareImg:hover {
+  background-attachment:initial;
+  background-clip:initial;
+  background-color:initial;
+  background-image:url(http://goldfishfun.com/images/buttons/shareBtn-hover.png);
+  background-origin:initial;
+  background-position:initial initial;
+  background-repeat:initial initial;
+}
+#share #shareContent .btn-close-small {
+  position:absolute;
+  right:0;
+  top:2px;
+}
+#share #shareContent .shareFish {
+  background-attachment:initial;
+  background-clip:initial;
+  background-color:initial;
+  background-image:url(http://goldfishfun.com/images/icons/shareGoldfish.png);
+  background-origin:initial;
+  background-position:initial initial;
+  background-repeat:no-repeat no-repeat;
+  cursor:auto;
+  display:block;
+  height:22px;
+  left:0;
+  position:absolute;
+  text-indent:-9999px;
+  top:-2px;
+  width:28px;
+}
+.Likes a.true, .Likes a.off {
+  background-image:url(http://goldfishfun.com/images/icons/like-display.png);
+  background-position:0 0;
+  background-repeat:no-repeat no-repeat;
+  color:#55504A;
+  cursor:default;
+  display:block;
+  float:left;
+  font-size:12px;
+  height:14px;
+  padding-bottom:0;
+  padding-left:20px;
+  padding-right:0;
+  padding-top:3px;
+  width:auto;
+}
+.Likes a.true:hover, .Likes a.off:hover {
+  text-decoration:none;
+}
+.Likes span.title {
+  color:#484241;
+  display:block;
+  float:left;
+  font-size:16px;
+  line-height:20px;
+  margin-bottom:0;
+  margin-left:0;
+  margin-right:10px;
+  margin-top:4px;
+}
+.Likes.post {
+  background-attachment:initial;
+  background-clip:initial;
+  background-color:initial;
+  background-image:none;
+  background-origin:initial;
+  background-position:initial initial;
+  background-repeat:initial initial;
+  cursor:pointer;
+  display:block;
+  height:26px;
+  position:relative;
+  width:auto;
+}
+.Likes.post span {
+  position:relative;
+}
+.Likes.post span.edge {
+  background-attachment:initial;
+  background-clip:initial;
+  background-color:initial;
+  background-image:url(http://goldfishfun.com/images/buttons/shareLikeBg.png);
+  background-origin:initial;
+  background-position:initial initial;
+  background-repeat:no-repeat no-repeat;
+  display:block;
+  float:left;
+  height:26px;
+  top:0;
+  width:4px;
+}
+.Likes.post span.edge.likeRt {
+  background-position:100% 50%;
+}
+.Likes.post a span.likeText {
+  background-attachment:initial;
+  background-clip:initial;
+  background-color:initial;
+  background-image:url(http://goldfishfun.com/images/buttons/shareLikeBg2.png);
+  background-origin:initial;
+  background-position:0 0;
+  background-repeat:repeat no-repeat;
+  display:block;
+  float:left;
+  font-size:10px;
+  height:20px;
+  margin-left:-2px;
+  padding-bottom:0;
+  padding-left:10px;
+  padding-right:10px;
+  padding-top:8px;
+  text-transform:uppercase;
+  z-index:1;
+}
+.Likes.post a, .Likes.post:visited {
+  color:#FFFFFF;
+  cursor:pointer;
+  display:block;
+  float:left;
+  height:26px;
+  margin-bottom:0;
+  margin-left:0;
+  margin-right:0;
+  margin-top:0;
+  padding-bottom:0;
+  padding-left:0;
+  padding-right:0;
+  padding-top:0;
+  position:relative;
+}
+.Likes.post a span.thumb {
+  background-attachment:initial;
+  background-clip:initial;
+  background-color:initial;
+  background-image:url(http://goldfishfun.com/images/icons/icon-like.png);
+  background-origin:initial;
+  background-position:-3px -3px;
+  background-repeat:no-repeat no-repeat;
+  display:block;
+  float:left;
+  height:26px;
+  width:26px;
+  z-index:2;
+}
+.Likes.post a.off span.thumb {
+  background-position:-3px -67px;
+}
+.Likes.post a.true span.thumb {
+}
+.Likes.post a:hover span.thumb {
+  background-position:-3px -35px;
+}
+.Likes.post a:hover {
+  color:#FF8038;
+  text-decoration:none;
+}
+.status-comment .Likes.post {
+  float:right;
+  padding-bottom:6px;
+  padding-left:6px;
+  padding-right:6px;
+  padding-top:6px;
+}
+#FinnAndFriends .feed .status .status-comment .Likes.post a, #FinnAndFriends .feed .status .status-comment .Likes.post a:visited {
+  background-attachment:initial;
+  background-clip:initial;
+  background-color:initial;
+  background-image:none;
+  background-origin:initial;
+  background-position:initial initial;
+  background-repeat:initial initial;
+  color:#55504A;
+}
+#FinnAndFriends .feed .status .status-comment .Likes.post a:hover {
+  color:#FF8038;
+}
+.status-comment .Likes.post a span.likeText {
+  background-attachment:initial;
+  background-clip:initial;
+  background-color:initial;
+  background-image:none;
+  background-origin:initial;
+  background-position:initial initial;
+  background-repeat:initial initial;
+}
+.flash-detail .shareLike {
+  position:absolute;
+  right:10px;
+  top:10px;
+  width:100%;
+  z-index:10000;
+}
+#GameDetail .shareLike {
+  display:none;
+}
+#VideoDetail .shareLike {
+  right:0;
+}
+.flash-detail .Likes.post span.edge, .flash-detail #share span.edge, #XTremeLanding #share span.edge {
+  background-image:url(http://goldfishfun.com/images/buttons/shareLikeBg3.png);
+  background-repeat:no-repeat no-repeat;
+}
+.flash-detail .Likes.post a span.likeText, .flash-detail #share #shareContent, #XTremeLanding #share #shareContent {
+  background-attachment:initial;
+  background-clip:initial;
+  background-color:initial;
+  background-image:url(http://goldfishfun.com/images/buttons/shareLikeBg4.png);
+  background-origin:initial;
+  background-position:0 0;
+  background-repeat:repeat no-repeat;
+}
+.flash-detail #share, #XTremeLanding #share {
+}
+.shareLike {
+  clear:both;
+  height:26px;
+  position:absolute;
+  right:0;
+  top:-40px;
+  width:50%;
+}
+#GameLanding .shareLike, #VideoLanding .shareLike {
+  top:-50px;
+}
+.shareLike #share {
+  float:right;
+}
+.shareLike .Likes {
+  float:right;
+  padding-left:10px;
+}
+#ie7 #GameLanding .shareLike, #ie7 #VideoLanding .shareLike, #ie8 #GameLanding .shareLike, #ie8 #VideoLanding .shareLike {
+  top:0;
+}
+#ie7 #share #shareContent .shareFish, #ie8 #share #shareContent .shareFish {
+  top:-2px;
+  z-index:2;
+}
+#ie7 #share #shareContent span#shareCopyLnk, #ie8 #share #shareContent span#shareCopyLnk {
+  top:7px;
+  z-index:2;
+}
+#ie7 #share #shareContent input, #ie8 #share #shareContent input {
+  line-height:1.3em;
+  padding-bottom:1px;
+  padding-left:0;
+  padding-right:0;
+  padding-top:1px;
+}
+#ie7 #share #shareContent .btn-close-small, #ie8 #share #shareContent .btn-close-small {
+  top:2px;
+}
+#ie8 #share #shareContent {
+  filter:inherit;
+  opacity:inherit;
+}
+.showHide {
+  display:none;
+  left:0;
+  position:absolute;
+  top:-40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/****Add Noise 2*****/
+
+
+#Footer .links a, #Footer .links a:visited, #Footer span {
+    color: #000;
+}
+#Footer .links a:hover, #Footer a:hover {
+    color: #DF7406;font-family: 12px;
+}
+#Footer p {
+    line-height: 16px;
+}
+#Footer .disclaimer, #Footer .footer-links, #Footer .ad-nooze2, #Footer .divider {
+    float: left;
+}
+#Footer .footer-links, #Footer .ad-nooze2, #Footer .divider {
+    width: 48%;
+}
+#Footer .ad-nooze2 span {
+    font-weight: bold;
+}
+#Footer .footer-links .pf-logo {
+    margin: 0 0 5px 80px;
+}
+#Footer .ad-nooze2 .ad-nooze-logo {
+    margin: 0 0 5px 90px;
+}
+#Footer .ad-nooze2 p {
+    margin-right: 100px;width: 48%;font-family: 12px;
+    
+}
+
+/****Share Links*****/
+#ie7 .input-large, #ie8 .input-large {
+    line-height: 3.2em;
+}
+#share {
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    height: 26px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: auto;
+}
+#share span.edge {
+    background: url("../images/buttons/shareLikeBg.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    float: left;
+    height: 26px;
+    top: 0;
+    width: 4px;
+}
+#share span.edge.likeLt {
+    background-position: left center;
+}
+#share span.edge.likeRt {
+    background-position: right center;
+}
+#share #shareContent {
+    background: url("../images/buttons/shareLikeBg2.png") repeat-x scroll 0 0 transparent;
+    display: block;
+    float: left;
+    height: 20px;
+    overflow: hidden;
+    padding: 0 0 6px;
+    position: relative;
+    width: auto;
+}
+#share #shareContent span {
+    color: #FFFFFF;
+    display: inline-block;
+    font-weight: bold;
+    height: 20px;
+    left: 35px;
+    padding: 0;
+    position: absolute;
+    top: 6px;
+    width: auto;
+    z-index: 1;
+}
+#share #shareContent .shareImg {
+    background: url("../images/buttons/shareBtn-dead.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 22px;
+    margin: 0;
+    text-indent: -9999px;
+    width: 76px;
+}
+
+/****End of Share Links***/
+

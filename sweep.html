@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<head>
+<title>Goldfish Fun| Team Xtreme | Developed By Dean  </title>
+<meta name="keywords" content="Team Xtreme"/>
+<meta name="description" content="Team Xtreme"/>
+<meta http-equiv="Content-Language" content="en"/>
+<meta name="language" content="en"/>
+<meta name="robots" content="all, follow"/>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<meta name="MSSmartTagsPreventParsing" content="TRUE"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<link rel="shortcut icon" href="./images/fav_icon.ico" type="image/x-icon"/>
+<link rel="stylesheet" href="css/jquery.selectBox.css">
+<link rel="stylesheet" href="css/default.css">
+<script type="text/javascript"></script>
+<!--Former Sheet <link rel="stylesheet" href="css/style1.css">-->
+
+
+</head>
+
+<body style="background: none repeat scroll 0% 0% rgb(173, 125, 77);">
+<div id="WrapTop" style="background-image: url(./images/imagebackground2.jpg); background-attachment: initial; background-origin: initial; background-clip: initial; background-color: initial; background-position: 50% 0%; background-repeat: no-repeat no-repeat; ">
+ <div id="Header">
+        <div class="outer">
+            <div class="inner">
+                <div class="logo">
+                    <a href="/default.aspx">
+                        <img alt="Goldfish &reg; FUN" src="./images/nav/logo.png">
+                    </a>
+                </div>
+                <!--Nav -->
+                    <div class="nav-links">
+                        <div class="user-status">
+                            <script type="text/javascript">
+                                $(function () {
+                                    $('#yourStuff').click(function (e) {
+                                        e.preventDefault();
+                                        GF.yourStuff(this.href);
+                                        return false;
+                                    });
+                                    $('#joinNow').click(function (e) {
+                                        e.preventDefault();
+                                        GF.openJoinTab(this.href);
+                                        return false;
+                                    });
+                                    $('#signIn').click(function (e) {
+                                        e.preventDefault();
+                                        GF.openSignInTab(this.href);
+                                        return false;
+                                    });
+                                    $('#logOut').click(function (e) {
+                                        e.preventDefault();
+                                        logOut();
+                                        return false;
+                                    });
+//ad-nooze tooltip
+                                    $(".ad-nooze-link").tooltip({ position: "bottom center", tip: "#adnoozetip" });
+                                });
+                            </script>
+                            <div class="stuff">
+                                <a id="yourStuff" class="my-stuff" href="/your-stuff.aspx">My Stuff</a>
+                            </div>
+                            <div class="tabWrap">
+                                <div id="tabWrapContent" class="tabLoading"></div>
+                            </div>
+                            <div class="loggedOut status">
+                                <a id="joinNow" class="yourStuff" href="/services/UI/JoinNow.aspx">Join Now</a>
+                                |
+                                <div id="signInBox">
+                                    <span class="box_tl"></span>
+                                    <span class="box_t"></span>
+                                    <span class="box_tr"></span>
+                                </div>
+                                <a id="signIn" href="/services/UI/login.aspx" onclick="return false;"> Sign In </a>
+                            </div>
+                            <div class="loggedIn dspNone status">
+                                <span id="ContentPlaceHolderDefault_LoginStatus_3_spanWelcome"></span>
+                                <a id="logOut" class="signOut yourStuff" href="#">Sign Out</a>
+                            </div>
+                            <div class="ad-nooze-link">
+                                <img alt="Ad Nooze" src="./images/footer/ad-nooze.png">
+                            </div>
+                            <div id="adnoozetip" class="tooltip">
+                                Ad Nooze means you are viewing an advertisement for
+                                <em>Goldfish &reg;</em>
+                                products.
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="mainnav">
+                            <ul class="navigation">
+                                <li class="fun-zone">
+                                    <a title="Fun Zone" href="/default.aspx">Fun Zone</a>
+                                </li>
+                                <li class="games">
+                                    <a title="Games" href="/games.aspx">Games</a>
+                                </li>
+                                <li class="finn-and-friends">
+                                <li class="videos">
+                                <li class="selected team-xtreme">
+                                <li class="fun-zone-(mobile)">
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+
+<!--End of Nav -->
+<!-- Container  -->
+<div id="ContentContainer">
+<div id="XTremeLanding" class="main-content">
+    <div class="shareLike">
+    <div id="share">
+        <span class="edge likeLt"></span>
+        <div id="shareContent">
+            <div class="shareImg"></div>
+        </div>
+        <span class="edge likeRt"></span>
+    </div>
+    <div class="Likes post" name="team xtreme">
+        <a class="true" href="#like" onclick="likeClick('team xtreme',$(this).attr('class'));return false">
+            <span class="thumb"></span>
+<span class="likeText">
+<span class="likeCount">58</span>
+Likes
+</span>
+            <span class="edge likeRt"></span>
+        </a>
+    </div>
+</div>
+
+
+
+
+<!--End of Promos -->
+<div id="main">
+        <div class="box_t"></div>
+        <div class="box_tl"></div>
+        <div class="box_tr"></div>
+        <div class="box_bl"></div>
+        <div class="box_br"></div>
+        <div class="box_b"></div>
+        <div class="header-banner">
+            <h1>Get Outside And Play with Team Xtreme!</h1>
+        </div>
+	<!--<img src="./images/fishboxmiddlenew.png">-->
+        <div class="bottom-container">
+
+            <div class="sweepstakes-wrap">
+                <div class="sweepstakes">
+                    <h2>Pick your play sweepstakes</h2>
+                    <p>Over 100 Prizes each month!</p>
+                    <p>
+                        <a id="enter-sweepstakes" href="/sweepstakes.aspx">Enter now</a>
+                    </p>
+                </div>
+                 <!--Callout -->
+                <div class="featured-callout" style="background-image: url(http://goldfishfun/media/144796/playcenter_callout.jpg)">
+                    <p>Home to more than 100 outdoor games. Find one now.</p>
+                    <a id="featured-url" class="overlay-trigger" rel="#play-picker" href="#play-picker" onclick="GF.omniture.intPromo('team xtreme play center tout on xtreme homepage')">Home to more than 100 outdoor games. Find one now.</a>
+                </div>
+                </div>
+                <!-- End of Callout -->
+            <!-- Promos-->
+            <div class="promos">
+                <div id="login-callout" class="promo" style="display: block;">
+                    <div class="tabHead">
+                        <img alt="Join or Log in" src="./images/headers/joinTab.png"/>
+                        Join or log in
+                    </div>
+                    <div class="join" style="background-position: 0px 0px; ">
+                        <a href="#register-xtreme" rel="#register-xtreme" id="join" class="overlay-trigger">join</a>
+                        <a href="#login-xtreme" rel="#login-xtreme" id="login">login</a>
+                    </div>
+                </div>
+                <div id="join-now-callout" class="promo">
+                    <div class="tabHead">
+                        <img alt="Join or Log in" src="./images/headers/joinTab.png"/>
+                        Join or log in
+                    </div>
+                    <div class="join-now">
+                        <p>The team needs you! Join the team that loves to play!</p>
+                        <a href="#register-xtreme" rel="#register-xtreme" class="overlay-trigger">join</a>
+                    </div>
+                </div>
+                <div id="enter-time-callout" class="promo">
+                    <div class="tabHead">
+                        <span>Hey,</span>
+                        <span class="username"/>
+                        !
+                    </div>
+                    <div class="enter-time">
+                        <p>Did you play today? Keep track of how many hours you played.</p>
+                        <a href="#enter-time-popup" rel="#enter-time-popup" class="overlay-trigger" id="enter-time">Enter Your Time</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="clear"/></div>
+
+
+    <div class="video-callout promo">
+        <div class="tabHead">
+            <img src="./images/headers/vidTab.png" alt="Get Movin' with Dwayne Wade">
+            Get Movin' with
+            <a id="_GPLITA_3" title="Click to Continue > by RewardsArcade" style="text-decoration:underline" href="#" in_rurl="http://i.trkjmp.com/click?v=VVM6MjgyMzQ6MTQ3NDpkd3lhbmUgd2FkZTpkOGE2ZjA2OTU1ZTE4ZTc4ZWRjN2FkYTMzMDhlYTc3ZTp6LTE4LTMwNTgyOnd3dy5nb2xkZmlzaGZ1bi5jb206MjE1ODk6ZWY4ODJhN2VmNjg4NWMyZjQ1ZGU1MDYyZDljNWZhNGI">Dwayne Wade</a>
+        </div>
+        <div class="featuredImage">
+            <a class="featuredCallout" href="/team-xtreme-videos/dwade-video-karate.aspx">
+                <img src="./images/xtreme/xtreme-video-callout.jpg">
+            </a>
+        </div>
+    </div>
+
+    <div class="headquarters-callout promo last">
+        <div class="tabHead">
+            <img src="./images/headers/voteTab.png" alt="Games">
+            choose the new headquarters
+        </div>
+        <div class="featuredImage">
+            <a class="featuredCallout" href="#">
+                <img class="popup_trig" src="./images/xtreme/headquarters-callout.jpg" rel="#headquarters">
+            </a>
+        </div>
+    </div>
+</div>
+    <div class="clear"></div>
+</div>
+</div>
+</div>
+
+
+
+    <!--<li><a href="sweep.aspx"><img src="./images/sweep0.jpg" width="533px" height="388px"></a></li>
+      
+  <!--<li><a href="enternow.aspx"><img src="./images/enternow.png" width="215px" height="97x" style="width: 180px; float: left; margin-bottom: 25px; margin-right: 20px;displayinline;"></a></li>
+<li><div style="margin-bottom:100;margin-right:10px;display:inline;"><a href="playcenter.aspx"><img src="./images/playcenter.jpg" width="533px" height="132px"/></a></div></li>
+    <ul/>-->
+  
+
+
+
+<div id="WrapBottom" style="background-image: url('http://goldfishfun.com/media/108809/backgrounds_2012_3_objects.png);'>
+
+<div id="Footer" class="legal">
+  <div class="inner">
+        <div class="footer-links">
+            <div class="pf-logo">
+                <img alt="Pepperidge Farm" src="./images/footer/pf-logo.png">
+            </div>
+            <p class="copy-right">
+                &reg; 2011
+                <a id="pfLogo" target="_blank" href="http://www.pepperidgefarm.com/">Pepperidge Farm</a>
+                , Incorporated. All Rights Reserved.
+            </p>
+            <p class="links">
+                <a href="/sitemap.aspx">Site Map</a>
+                |
+                <a target="_blank" href="http://www.campbellsoupcompany.com/legal.asp">Legal Info</a>
+                |
+                <a target="_blank" href="http://www.campbellsoupcompany.com/privacy_policy.asp">Privacy Policy</a>
+                |
+                <a target="_blank" href="http://www.pepperidgefarm.com/ContactUs.aspx">Contact Us</a>
+            </p>
+        </div>
+        <div class="divider"> </div>
+        <div class="ad-nooze">
+            <div class="ad-nooze-logo">
+                <img alt="Ad Nooze" src="./images/footer/ad-nooze.png">
+            </div>
+            <p>
+                Ad Nooze means you are viewing an advertisement for
+                <em>Goldfish&reg;</em>
+                products.
+            </p>
+        </div>
+        <div class="divider"> </div>
+        <div class="disclaimer">
+            <p> </p>
+            <p class="headline">NO PURCHASE NECESSARY. MANY WILL ENTER, A FEW WILL WIN.</p>
+            <p class="copy">
+                Open to legal residents of the 50 United States and the District of Columbia, ages 6 - 13 years of age. Promotion ends 12/13/13. Void in PR, overseas APO/FPO and where prohibited. Prizes will change monthly, and prizes may look different from what’s shown. Limit one Additional Entry per person per day. Click here for
+                <a class="overlay-trigger" rel="#official-rules" href="#official-rules">
+                    <span class="official-rules">Official Rules</span>
+                </a>
+            </p>
+            <p></p>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+</div>
+<!--End -->
+
+
+
+
+<!--End of Footer -->	
+	
+	
+	
+	
+	
+	
+<!-- JS -->
+<script type="text/javascript">
+$(function () {
+//Initalize the bg Image Rotation
+rotateBg();
+//Initalize the tabs
+GF.tabs.init();
+//fix IE overlay
+GF.IEOverlay();
+//set background images height
+GF.SetBGImgHeight();
+GF.Sharing();
+//close tab on click anywhere on overlay
+$('#exposeMask').click(function (e) {
+GF.closeBkgd(); return false;
+});
+$('a[href="/"]').attr('href','/default.aspx');
+});
+</script>
+<script type="text/javascript">
+$(document).ready(function () {
+GF.Sharing();
+ObjectTypeId = 3;
+$("#FinnAndFriends .game .thumb").hover(function () {
+$("img", this).show();
+}, function () {
+$("img", this).hide();
+});
+//set up the header animation
+setTimeout("headerFlash('skip')", 750);
+setCookie('hideHeader', true);
+});
+</script>
+
+<script type="text/javascript">
+var pageBadges = {'badges': {
+'start' : {
+"name": "Strong Starter",
+"descrip": "Earned by viewing your profile page for the first time.",
+"largeImage": "/media/12993/badge_300x300_01_strongstarter.png",
+"smallImage": "/media/12515/badge-strong-starter.png"
+},
+'likelot' : {
+"name": "Sir Likes-a-Lot",
+"descrip": "Earned by liking 25 things.",
+"largeImage": "/media/12530/badge_300x300_03_sirlikesalot.png",
+"smallImage": "/media/12531/badge_sprite_03_sirlikesalot.png"
+},
+'backback' : {
+"name": "Back-to-Back-to-Back",
+"descrip": "Earned by visiting the site 3 days in a row.",
+"largeImage": "/media/10379/badge_300x300_13_backtoback.png",
+"smallImage": "/media/10380/badge_sprite_13_backtoback.png"
+},
+'nifty' : {
+"name": "Nifty Fifty",
+"descrip": "Earned by visiting the website 50 times.",
+"largeImage": "/media/10617/badge_300x300_26_niftyfifty.png",
+"smallImage": "/media/10618/badge_sprite_26_niftyfifty.png"
+}
+}
+}
+</script>
+	
+</body>
+</html>
